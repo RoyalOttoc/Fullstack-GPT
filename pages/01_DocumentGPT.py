@@ -116,6 +116,8 @@ with st.sidebar:
         type=["pdf", "txt", "docx"],
     )
 
+    st.write("https://github.com/RoyalOttoc/Fullstack-GPT/commit/f44f53d6cdc746e5529afddb27a2998b8385a8c0")
+
 if file:
     retriever = embed_file(file)
     send_message("I'm ready! Ask away!", "ai", save=False)
