@@ -252,6 +252,7 @@ with st.sidebar:
         if topic:
             docs = wiki_search(topic)
 
+    st.write("https://github.com/RoyalOttoc/Fullstack-GPT/commit/d80e6787d43987429d39cd790c08dccec4b7dfc5")
 
 if not docs:
     st.markdown(
