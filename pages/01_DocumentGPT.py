@@ -115,7 +115,7 @@ with st.sidebar:
         "Upload a .txt .pdf or .docx file",
         type=["pdf", "txt", "docx"],
     )
-
+  
     st.write("https://github.com/RoyalOttoc/Fullstack-GPT/commit/f44f53d6cdc746e5529afddb27a2998b8385a8c0")
 
 if file:
