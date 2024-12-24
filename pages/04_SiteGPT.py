@@ -150,6 +150,7 @@ st.markdown(
 
 url = ""
 with st.sidebar:
+    st.write("https://github.com/RoyalOttoc/Fullstack-GPT/commit/ac878cb9ff90c5988d0cd7926450ef21f1227260")
     key = st.text_input("Insert your OPEN AI KEY here.")
     
     
@@ -165,6 +166,7 @@ if key:
     #     "Write down a URL",
     #     placeholder="https://example.com",
     # )
+    
     
 
 
